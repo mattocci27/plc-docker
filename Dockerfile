@@ -8,4 +8,4 @@ RUN install2.r -n -1 --error \
     kableExtra
 
 RUN Rscript -e "devtools::install_github('remkoduursma/fitplc')"
-RUN Rscript -e "devtools::install_github('mattocci/fitplc2')"
+RUN Rscript -e "devtools::install_github('mattocci27/fitplc2')"
