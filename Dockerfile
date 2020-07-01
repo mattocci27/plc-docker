@@ -5,6 +5,7 @@ RUN install2.r -n -1 --error \
     --repos mirror.lzu.edu.cn/CRAN \
     tictoc \
     cowplot \
+    agricolae \
     kableExtra
 
 RUN Rscript -e "devtools::install_github('remkoduursma/fitplc')"
